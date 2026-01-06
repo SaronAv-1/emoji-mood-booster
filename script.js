@@ -7,34 +7,48 @@ let selectedEmojis = [];
 
 const quotes = {
   sad: [
-    "This feeling will pass. You are stronger than you think 💙",
-    "Even the darkest night ends with sunrise 🌅",
-    "It's okay to feel sad. Healing takes time."
+    "It hurts when feelings stay unspoken.",
+    "Sometimes smiling is the hardest thing.",
+    "Not all pain has words.",
+    "Silent tears are the heaviest.",
+    "Even strong hearts feel tired."
   ],
   stress: [
-    "Take a deep breath. You’re doing your best 🌿",
-    "Slow down. One step at a time.",
-    "You don’t have to control everything. Relax."
+    "Breathe in calm, breathe out stress.",
+    "One step at a time is enough.",
+    "Pause. Breathe. Continue.",
+    "Stress less, live more.",
+    "It's okay to slow down."
   ],
   angry: [
-    "Pause. Breathe. Respond calmly 🧘",
-    "Anger fades when understanding grows.",
-    "Peace begins with you."
+    "Pause before anger speaks.",
+    "Anger fades, words stay.",
+    "Calm is strength.",
+    "Breathe, don't explode.",
+    "Choose peace over rage."
   ],
   happy: [
-    "Your smile can change the world 😄",
-    "Keep shining, you’re doing great!",
-    "Happiness looks good on you!"
+    "Happiness looks good on you.",
+    "Smile—it’s your superpower.",
+    "Joy is found in small moments.",
+    "Choose what makes you smile.",
+    "Let happiness be loud."
   ],
   calm: [
-    "You are safe. You are present 🌸",
-    "Enjoy this peaceful moment.",
-    "Calm mind, strong soul."
+    "Calm is a quiet kind of power.",
+    "Peace begins with a breath.",
+    "Stillness heals.",
+    "Let calm lead you.",
+    "Soft mind, strong heart."
   ],
   motivation: [
-    "You matter. Your feelings are valid ❤️",
-    "Every day is a fresh start.",
-    "Believe in yourself. You’ve got this!"
+    "You’ve got this.",
+    "Start now, grow later.",
+    "Small steps, big wins.",
+    "Believe. Begin. Become.",
+    "Keep going, it matters.",
+    "Dream. Try. Repeat.",
+    "One step is progress."
   ]
 };
 
