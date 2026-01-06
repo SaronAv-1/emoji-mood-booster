@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Emoji Mood Booster</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+    <h1>😊 Emoji Mood Booster</h1>
+    <p>Select <strong>4 emojis</strong> that match how you feel right now</p>
+
+    <div class="emoji-grid">
+      <button class="emoji" data-mood="sad">😢</button>
+      <button class="emoji" data-mood="sad">😞</button>
+      <button class="emoji" data-mood="stress">😣</button>
+      <button class="emoji" data-mood="stress">😰</button>
+      <button class="emoji" data-mood="angry">😡</button>
+      <button class="emoji" data-mood="angry">😠</button>
+      <button class="emoji" data-mood="happy">😊</button>
+      <button class="emoji" data-mood="happy">😄</button>
+      <button class="emoji" data-mood="calm">😌</button>
+      <button class="emoji" data-mood="calm">😇</button>
+    </div>
+
+    <button id="submitBtn">Boost My Mood ✨</button>
+
+    <div id="result" class="result hidden">
+      <h2>Your Mood Booster 💬</h2>
+      <p id="quote"></p>
+      <button onclick="reset()">Try Again 🔄</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
